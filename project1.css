@@ -1,0 +1,73 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+}
+
+body h1 {
+    font-weight: normal;
+}
+
+body .messages {
+    font-size: 2em;
+}
+
+body .turn {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+body table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 0 auto;
+}
+
+body table td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #555;
+    cursor: pointer;
+}
+
+body table td:before {
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+body table td.cross:before {
+    content: "x";
+    font-size: 70px;
+    color: rgb(53, 18, 207);
+}
+
+body table td.circle:before {
+    content: "o";
+    font-size: 70px;
+    color: rgb(158, 18, 41);
+}
+
+body .reset {
+    background: #555;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Roboto", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+body .restart {
+    background: #555;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Roboto", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+body .reset:hover {
+    opacity: 0.8;
+}
